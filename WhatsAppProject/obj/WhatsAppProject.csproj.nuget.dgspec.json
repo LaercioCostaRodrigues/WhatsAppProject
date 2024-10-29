@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dev\\WhatsAppProject\\WhatsAppProject\\WhatsAppProject.csproj": {}
+  },
+  "projects": {
+    "D:\\dev\\WhatsAppProject\\WhatsAppProject\\WhatsAppProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\WhatsAppProject\\WhatsAppProject\\WhatsAppProject.csproj",
+        "projectName": "WhatsAppProject",
+        "projectPath": "D:\\dev\\WhatsAppProject\\WhatsAppProject\\WhatsAppProject.csproj",
+        "packagesPath": "C:\\Users\\E55570\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\WhatsAppProject\\WhatsAppProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\E55570\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Easy.Automation": {
+              "target": "Package",
+              "version": "[1.0.0.12, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[129.0.6668.8900, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
